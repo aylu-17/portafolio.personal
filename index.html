@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aylin Peralta - Contacto</title>
+    <link rel="stylesheet" href="/sytles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Aylin Peralta</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <main class="hero-content">
+                <div class="content">
+                    <div class="text-content">
+                        <p class="greeting">Hola, Soy</p>
+                        <h1 class="name">Aylin Peralta</h1>
+                        <p class="description">
+                            Estudiante de programación de 17 años en EPET 12, 
+                            apasionada por el desarrollo web y la tecnología. Creando 
+                            soluciones digitales desde San Martín de los Andes.
+                        </p>
+                        <button class="contact-btn" id="contactBtn">Contáctame</button>
+                        
+                        <div class="languages-section">
+                            <p class="languages-title">Lenguajes que uso:</p>
+                            <div class="tech-buttons">
+                                <button class="tech-btn" data-tech="HTML">HTML</button>
+                                <button class="tech-btn" data-tech="CSS">CSS</button>
+                                <button class="tech-btn" data-tech="JavaScript">JavaScript</button>
+                                <button class="tech-btn" data-tech="Python">Python</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="code-block">
+                        <div class="code-header">
+                            <div class="window-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                        </div>
+                        <div class="code-content">
+<pre id="codeDisplay"><code>const developerProfile = {
+  fullName: "Aylin Peralta",
+  age: 17,
+  city: "San Martín de los Andes",
+  institution: "EPET N°12",
+  focusArea: "Desarrollo Web",
+  programmingLanguages: ["HTML", "CSS", "JavaScript", "Python"]
+  // Perfil orientado al crecimiento profesional
+  // Comprometida con el desarrollo de soluciones
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¡Hablemos!</h3>
+                    <p>¿Tienes una idea de proyecto? ¿Quieres colaborar? No dudes en contactarme.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>aylin.peralta@email.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+54 294 123 4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>San Martín de los Andes, Argentina</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Tu mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Aylin Peralta. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="scripts/js.js"></script>
+</body>
+</html>
