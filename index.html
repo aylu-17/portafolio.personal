@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aylin Peralta - Contacto</title>
-    <link rel="stylesheet" href="sytles/styles.css">
+    <link rel="stylesheet" href="./sytles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,10 +24,11 @@
                         <p class="greeting">Hola, Soy</p>
                         <h1 class="name">Aylin Peralta</h1>
                         <p class="description">
-                            Estudiante de programación de 17 años en EPET 12, 
+                            Estudiante de programación de 17 años , mi educacion es EPET 12, 
                             apasionada por el desarrollo web y la tecnología. Creando 
                             soluciones digitales desde San Martín de los Andes.
-                        </p>
+                            Tambien puedo hacer mantenimiento de computadoras, pero mi gran habilidad son las paginas web</p>
+                        <button class="contact-btn" id="contactBtn">Contáctame</button>
                         <button class="contact-btn" id="contactBtn">Contáctame</button>
                         
                         <div class="languages-section">
@@ -74,15 +75,15 @@
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>¡Hablemos!</h3>
-                    <p>¿Tienes una idea de proyecto? ¿Quieres colaborar? No dudes en contactarme.</p>
+                    <p>¿Tienes una idea de proyecto? No dudes en contactarme.</p>
                     <div class="contact-details">
                         <div class="contact-item">
                             <span class="contact-icon">📧</span>
-                            <span>aylin.peralta@email.com</span>
+                            <span>ayluperco@gmail.com</span>
                         </div>
                         <div class="contact-item">
                             <span class="contact-icon">📱</span>
-                            <span>+54 294 123 4567</span>
+                            <span>+54 2944602390</span>
                         </div>
                         <div class="contact-item">
                             <span class="contact-icon">📍</span>
@@ -90,21 +91,26 @@
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="#" class="social-link">GitHub</a>
-                        <a href="#" class="social-link">LinkedIn</a>
-                        <a href="#" class="social-link">Instagram</a>
+                        <a href="" class="social-link">GitHub</a>
+                        <a href="" class="social-link">Instagram</a>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
+                <form class="contact-form" id="contactForm" action="https://formsubmit.co/ayluperco@gmail.com" method="POST">
                     <div class="form-group">
-                        <input type="text" id="name" placeholder="Tu nombre" required>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" placeholder="Tu email" required>
+                        <input type="email" id="email" name="email" placeholder="Tu email" required>
                     </div>
                     <div class="form-group">
-                        <textarea id="message" placeholder="Tu mensaje" rows="5" required></textarea>
+                        <textarea id="message" name="message" placeholder="Tu mensaje" rows="5" required></textarea>
                     </div>
+
+                    <!-- Opcional: evita spam -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <!-- Opcional: redirige luego de enviar -->
+                    <input type="hidden" name="_next" value="https://formsubmit.co/thank-you">
+
                     <button type="submit" class="submit-btn">Enviar Mensaje</button>
                 </form>
             </div>
@@ -114,7 +120,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Aylin Peralta. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Aylin Peralta. Todos los derechos reservados.</p>
         </div>
     </footer>
     
